@@ -1,4 +1,4 @@
-package com.lyndir.lhunath.masterpassword.model;
+package com.lyndir.masterpassword.model;
 
 /**
  * @author lhunath, 2014-08-20

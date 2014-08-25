@@ -1,13 +1,11 @@
-package com.lyndir.lhunath.masterpassword.view;
+package com.lyndir.masterpassword.view;
 
 import android.content.Context;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-import butterknife.ButterKnife;
-import com.lyndir.lhunath.masterpassword.R;
-import com.lyndir.lhunath.masterpassword.model.User;
+import com.lyndir.masterpassword.R;
+import com.lyndir.masterpassword.model.User;
 
 
 /**

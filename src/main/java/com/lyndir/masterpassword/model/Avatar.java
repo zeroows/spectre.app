@@ -1,6 +1,6 @@
-package com.lyndir.lhunath.masterpassword.model;
+package com.lyndir.masterpassword.model;
 
-import com.lyndir.lhunath.masterpassword.R;
+import com.lyndir.masterpassword.R;
 
 
 /**

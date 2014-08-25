@@ -1,13 +1,13 @@
-package com.lyndir.lhunath.masterpassword;
+package com.lyndir.masterpassword;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
-import com.lyndir.lhunath.masterpassword.model.Avatar;
-import com.lyndir.lhunath.masterpassword.model.User;
-import com.lyndir.lhunath.masterpassword.view.AvatarView;
+import com.lyndir.masterpassword.model.Avatar;
+import com.lyndir.masterpassword.model.User;
+import com.lyndir.masterpassword.view.AvatarView;
 
 
 public class UsersActivity extends Activity {
