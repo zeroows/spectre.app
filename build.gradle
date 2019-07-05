@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 25
@@ -50,6 +51,7 @@ dependencies {
     implementation group: 'com.lyndir.lhunath.opal', name: 'opal-system', version: '1.7-p2'
 
     implementation group: 'org.slf4j', name: 'slf4j-android', version: '1.7.13-underscore'
+    implementation group: 'com.google.firebase', name: 'firebase-core', version: '17.0.0'
     implementation group: 'com.jakewharton', name: 'butterknife', version: '8.5.1'
     annotationProcessor group: 'com.jakewharton', name: 'butterknife-compiler', version: '8.5.1'
 }
