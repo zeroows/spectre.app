@@ -51,7 +51,7 @@ dependencies {
     api project( ':masterpassword-algorithm' )
     implementation group: 'com.lyndir.lhunath.opal', name: 'opal-system', version: '1.7-p2'
 
-    implementation group: 'org.slf4j', name: 'slf4j-android', version: '1.7.13-underscore'
+    implementation group: 'com.github.tony19', name: 'logback-android', version: '2.0.0'
     implementation group: 'com.google.firebase', name: 'firebase-core', version: '17.2.0'
     implementation group: 'com.jakewharton', name: 'butterknife', version: '10.2.0'
     annotationProcessor group: 'com.jakewharton', name: 'butterknife-compiler', version: '10.2.0'
