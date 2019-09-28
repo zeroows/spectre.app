@@ -10,6 +10,7 @@ add_library( mpw SHARED
     "${PROJECT_SOURCE_DIR}/../platform-independent/c/core/src/mpw-marshal-util.c"
     "${PROJECT_SOURCE_DIR}/../platform-independent/c/core/src/mpw-marshal.c"
     "${PROJECT_SOURCE_DIR}/../platform-independent/c/core/src/mpw-jni.c" )
+target_compile_definitions( mpw PRIVATE -DMPW_LOG=mpw_log_app )
 
 add_library( sodium SHARED IMPORTED )
 set_target_properties( sodium PROPERTIES IMPORTED_LOCATION "${PROJECT_SOURCE_DIR}/../lib/libsodium/build-android~/out/lib/${ANDROID_ABI}/libsodium.so" )
